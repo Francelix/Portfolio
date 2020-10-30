@@ -1,7 +1,35 @@
-ul {
-  list-style-image: url(images/sun.png);
-}
-
 h1 {
   text-align: center;
+  display: block;
+}
+
+
+#icon {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+hr {
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.info {
+  width: 50%;
+}
+
+.info:hover {
+  width: 53%;
+}
+
+table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
